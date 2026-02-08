@@ -47,13 +47,6 @@ I build distributed systems that don't break at 3am. Backend-focused Software En
 
 ---
 
-## 💬 Featured Talks
-
-- **"From AI Feature to AI-First Architecture"** — Multi-model orchestration patterns
-- **"CI Enforcement: From 'My Code Works' to Owning Everything"** — Building culture through automation
-
----
-
 ## 📍 Location & Contact
 
 🇵🇱 Kraków, Poland | Open to remote (US/EU)
