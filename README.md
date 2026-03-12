@@ -22,9 +22,13 @@ Small but useful browser extension that turns Rancher's unreadable JSON logs int
 
 Most of the production-scale work behind my profile comes from backend and platform roles across startups, scale-ups, and enterprise teams:
 
-- built billing correctness and event-pipeline systems at Keen on workloads around 100M events per day
-- worked on zero-downtime migration of 10M+ records and workflow infrastructure at Base CRM
-- currently building secure external APIs in a 35+ microservice platform at KION
+- built a 24-service AI-native platform with 400K+ lines of TypeScript and Terraform-managed infrastructure
+- owned billing-critical backend systems on workloads around 100M events per day, including usage aggregation across 100 processing nodes
+- currently build secure external APIs in a 35+ microservice platform, including OAuth2 security, contract-first design, and resilient integrations
+- handled a zero-downtime migration of 10M+ records and built an event-driven workflow engine that became a platform foundation for third-party vendors
+- worked on backend systems for remote monitoring and incident handling across 100,000+ vehicles and motorbikes
+- moved into technical team leadership, led a 7-10 person team, and technically screened 50+ candidates during a major hiring phase
+- built a Salesforce-integrated renewal workflow that saved work equivalent to 2 full-time roles
 
 ## Technologies I Reach For
 
