@@ -1,60 +1,45 @@
 # Piotr Buchman
 
-**Software Engineer, 14 Years** | Backend & Distributed Systems | Extreme Ownership | Building in the Agentic Era
+Backend and platform engineer with 14+ years building distributed systems, APIs, and business-critical backend software.
 
-I build distributed systems that don't break at 3am. Backend-focused Software Engineer with 14+ years shipping production software. Currently obsessed with agentic development — leveraging AI as a force multiplier while maintaining engineering rigor.
+Strongest in Java/Spring, event-driven systems, SQL/PostgreSQL, and turning ambiguous requirements into production systems that stay understandable under load. Recent public work focuses on AI-native tooling, multi-model orchestration, developer workflow automation, and practical software that solves real operational problems.
 
----
+## Selected Public Work
 
-## 🔥 What I'm Working On
+### [IntexuraOS](https://github.com/pbuchman/intexuraos)
+AI-native operating system for daily workflows. Multi-model research, voice-first commands, guarded execution, Terraform-managed infrastructure, and a microservice architecture built around verification rather than hype.
 
-**[IntexuraOS](https://github.com/pbuchman/intexuraos)** — AI-native personal operating system
+### [claude-proxy](https://github.com/pbuchman/claude-proxy)
+Smart routing proxy for Claude Code that preserves premium reasoning capacity and controls cost by delegating execution-heavy work to other models when it is safe to do so.
 
-- **24 services** | **338 API endpoints** | **327K lines of TypeScript**
-- Multi-provider LLM orchestration (5 providers, 17 models, "council of experts" pattern)
-- WhatsApp-first interaction with autonomous code execution
-- **95%+ test coverage** | 21 CI verification scripts | Extreme Ownership mindset
+### [MotorScope](https://github.com/pbuchman/motorscope)
+Chrome extension plus backend for extracting, tracking, and analyzing car listing data over time. A practical product with browser automation, AI-assisted extraction, and cloud deployment.
 
-> Building AI agents that use apps as tools — not another app with AI bolted on.
+### [Holy Carp! Logs](https://github.com/pbuchman/holy-carp-logs)
+Small but useful browser extension that turns Rancher's unreadable JSON logs into a filterable log viewer people can actually use.
 
----
+## Professional Context
 
-## 🛠 Tech Stack
+Most of the production-scale work behind my profile comes from backend and platform roles across startups, scale-ups, and enterprise teams:
 
-**Primary:** Java (13 years), Spring Boot, TypeScript, Python
-**Backend:** Node.js, Fastify, Spring WebFlux
-**Data:** PostgreSQL, MongoDB, Firestore, Redis
-**Cloud:** AWS (10 years), GCP (Cloud Run), Azure
-**Infrastructure:** Docker, Terraform, Kafka
-**AI/LLM:** Claude, GPT, Gemini, Perplexity — orchestrated via custom abstraction layer
+- built billing correctness and event-pipeline systems at Keen on workloads around 100M events per day
+- worked on zero-downtime migration of 10M+ records and workflow infrastructure at Base CRM
+- currently building secure external APIs in a 35+ microservice platform at KION
 
----
+## Technologies I Reach For
 
-## 🎯 How I Work
+Java, Spring Boot, Spring WebFlux, TypeScript, Node.js, Python, PostgreSQL, MySQL, Redis, Kafka, Docker, Kubernetes, Terraform, AWS, GCP, Azure.
 
-**Extreme Ownership doctrine:** If the code broke, I own it. If requirements were unclear, I should have clarified. No excuses.
+## How I Like To Build
 
-**Engineering rigor:**
-- 95%+ branch coverage required — every commit validated
-- Strict TypeScript mode — no `any`, no surprises
-- Infrastructure as Code — if it's not in Terraform, it doesn't exist
-- CI enforcement — "my part passes" is not a valid state
+- clear contracts and explicit failure handling
+- CI/CD, observability, and production ownership
+- pragmatic architecture over theory-first debates
+- AI as leverage, not as a replacement for engineering judgment
 
-**Agentic development:**
-- AI models as a "council of experts" — each has strengths
-- Abstract behind contracts, route intelligently, synthesize results
-- Ship faster while maintaining quality standards
+## Contact
 
----
+- Email: [kontakt@pbuchman.com](mailto:kontakt@pbuchman.com)
+- LinkedIn: [linkedin.com/in/piotrbuchman](https://www.linkedin.com/in/piotrbuchman/)
 
-## 📍 Location & Contact
-
-🇵🇱 Kraków, Poland | Open to remote (US/EU)
-
-**Email:** [kontakt@pbuchman.com](mailto:kontakt@pbuchman.com)
-**LinkedIn:** [linkedin.com/in/piotrbuchman](https://www.linkedin.com/in/piotrbuchman/)
-**Threads:** [@piotrekbuchman](https://threads.com/@piotrekbuchman)
-
----
-
-*Less noise, more signal. Professional builder focused on clarity, scale, and architectural thinking.*
+Less noise, more signal.
