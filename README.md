@@ -7,13 +7,16 @@ Strongest in Java/Spring, event-driven systems, SQL/PostgreSQL, and turning ambi
 ## Selected Public Work
 
 ### [IntexuraOS](https://github.com/pbuchman/intexuraos)
-AI-native operating system for daily workflows. Multi-model research, voice-first commands, guarded execution, Terraform-managed infrastructure, and a microservice architecture built around verification rather than hype.
+48-component AI platform built solo — takes a WhatsApp voice note and turns it into a tested pull request. Cross-LLM verification where no model evaluates its own output, 14 AI models across 5 providers, 100% branch coverage as a CI gate, and 27 verification scripts enforcing quality at every stage.
 
 ### [claude-proxy](https://github.com/pbuchman/claude-proxy)
 Smart routing proxy for Claude Code that preserves premium reasoning capacity and controls cost by delegating execution-heavy work to other models when it is safe to do so.
 
 ### [MotorScope](https://github.com/pbuchman/motorscope)
 Chrome extension plus backend for extracting, tracking, and analyzing car listing data over time. A practical product with browser automation, AI-assisted extraction, and cloud deployment.
+
+### [GitHub YOLO Review](https://github.com/pbuchman/github-yolo-review-extension)
+Chrome extension that adds the one filter GitHub was too afraid to ship: hide the tests. One click and the diff shrinks 32-34%*. Built entirely by a frontier LLM. Methodology: vibes.
 
 ### [Holy Carp! Logs](https://github.com/pbuchman/holy-carp-logs)
 Small but useful browser extension that turns Rancher's unreadable JSON logs into a filterable log viewer people can actually use.
@@ -22,7 +25,7 @@ Small but useful browser extension that turns Rancher's unreadable JSON logs int
 
 Most of the production-scale work behind my profile comes from backend and platform roles across startups, scale-ups, and enterprise teams:
 
-- built a 24-service AI-native platform with 400K+ lines of TypeScript and Terraform-managed infrastructure
+- built a 48-component AI platform with 400K+ lines of TypeScript, cross-LLM verification, and 100% branch coverage
 - owned billing-critical backend systems on workloads around 100M events per day, including usage aggregation across 100 processing nodes
 - currently build secure external APIs in a 35+ microservice platform, including OAuth2 security, contract-first design, and resilient integrations
 - handled a zero-downtime migration of 10M+ records and built an event-driven workflow engine that became a platform foundation for third-party vendors
