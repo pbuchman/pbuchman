@@ -7,7 +7,14 @@ Strongest in Java/Spring, event-driven systems, SQL/PostgreSQL, and turning ambi
 ## Selected Public Work
 
 ### [IntexuraOS](https://github.com/pbuchman/intexuraos)
-48-component AI platform built solo — takes a WhatsApp voice note and turns it into a tested pull request. Cross-LLM verification where no model evaluates its own output, 14 AI models across 5 providers, 100% branch coverage as a CI gate, and 27 verification scripts enforcing quality at every stage.
+
+A WhatsApp voice note becomes a tested pull request. Gemini classifies it, the matching agent picks it up, a code worker ships the change, an independent audit reviews the session transcript, and a human only sees the PR.
+
+Worker containers ship both Claude Code and OpenAI Codex CLIs in the same image, picking the runtime per task and dialing reasoning effort up when the task warrants it.
+
+Every coding-agent PR ships with a compliance report from an independent provider auditing the full session transcript before any human reviews the diff.
+
+Review findings get encoded as 50+ Claude Code hooks and 40+ CI verification scripts, so the same lesson never has to be reviewed twice.
 
 ### [claude-proxy](https://github.com/pbuchman/claude-proxy)
 Smart routing proxy for Claude Code that preserves premium reasoning capacity and controls cost by delegating execution-heavy work to other models when it is safe to do so.
@@ -25,7 +32,7 @@ Small but useful browser extension that turns Rancher's unreadable JSON logs int
 
 Most of the production-scale work behind my profile comes from backend and platform roles across startups, scale-ups, and enterprise teams:
 
-- built a 48-component AI platform with 400K+ lines of TypeScript, cross-LLM verification, and 100% branch coverage
+- built a 61-component AI platform with 400K+ lines of TypeScript, cross-LLM verification, and 100% branch coverage
 - owned billing-critical backend systems on workloads around 100M events per day, including usage aggregation across 100 processing nodes
 - currently build secure external APIs in a 35+ microservice platform, including OAuth2 security, contract-first design, and resilient integrations
 - handled a zero-downtime migration of 10M+ records and built an event-driven workflow engine that became a platform foundation for third-party vendors
