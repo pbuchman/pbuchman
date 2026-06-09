@@ -28,6 +28,10 @@ Chrome extension that adds the one filter GitHub was too afraid to ship: hide th
 ### [Holy Carp! Logs](https://github.com/pbuchman/holy-carp-logs)
 Small but useful browser extension that turns Rancher's unreadable JSON logs into a filterable log viewer people can actually use.
 
+## Certification
+
+- [Anthropic Claude Certified Architect](https://verify.skilljar.com/c/trqoiwubm28i)
+
 ## Professional Context
 
 Most of the production-scale work behind my profile comes from backend and platform roles across startups, scale-ups, and enterprise teams:
